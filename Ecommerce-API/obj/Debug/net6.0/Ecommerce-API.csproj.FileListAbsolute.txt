@@ -12,3 +12,4 @@ C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-A
 C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerce-API.pdb
 C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerce-API.genruntimeconfig.cache
 C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\ref\Ecommerce-API.dll
+C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerce-API.sourcelink.json

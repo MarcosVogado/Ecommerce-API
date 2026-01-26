@@ -9,7 +9,7 @@ namespace Ecommerce_API.Menus
 {
     internal class ViewProductsMenu : Menu
     {
-        public static void FormatProduct(Product product)
+        internal void FormatProduct(Product product)
         {
             int length = product.Title.Length;
             string border = string.Empty.PadLeft(length + 10, '-');
@@ -19,7 +19,7 @@ namespace Ecommerce_API.Menus
             Console.WriteLine($"Preço: ${product.Price}");
             Console.WriteLine(border);
         }
-        public void ShowProducts(List<Product> products)
+        internal void ShowProducts(List<Product> products)
         {
             Console.Clear();
             ShowMenuLogo("Produtos Disponíveis");

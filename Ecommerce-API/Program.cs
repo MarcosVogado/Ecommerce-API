@@ -58,6 +58,11 @@ namespace Ecommerce_API
                     viewProductsMenu.ShowProducts(products);
                     ShowMenuOptions(products);
                     break;
+                case 2:
+                    SearchProductMenu searchProductMenu = new SearchProductMenu();
+                    searchProductMenu.SearchProduct(products);
+                    ShowMenuOptions(products);
+                    break;
                 case -1:
                     Console.WriteLine("\n=> Obrigado por usar a Lojinha no Console! Até a próxima.");
                     Thread.Sleep(2000);

@@ -38,7 +38,7 @@ namespace Ecommerce_API
                                                                                                      ");
             Console.WriteLine("***** Boas vindas a Lojinha no Console! *****");
         }
-        static void ShowMenuOptions(List<Product> products)
+        public static void ShowMenuOptions(List<Product> products)
         {
             ShowProjectLogo();
             Console.WriteLine("\n============== Menu de Opções: ==============\n");
@@ -56,6 +56,18 @@ namespace Ecommerce_API
                 case 1:
                     ViewProductsMenu viewProductsMenu = new ViewProductsMenu();
                     viewProductsMenu.ShowProducts(products);
+                    ShowMenuOptions(products);
+                    break;
+                case -1:
+                    Console.WriteLine("\n=> Obrigado por usar a Lojinha no Console! Até a próxima.");
+                    Thread.Sleep(2000);
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida. Tente novamente.");
+                    Thread.Sleep(2000);
+                    Console.Clear();
+                    ShowMenuOptions(products);
                     break;
             }
         }

@@ -42,8 +42,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\SearchProductMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:42:28.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T19:42:28.012Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\ViewProductsMenu.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T17:58:40.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T17:58:40.935Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T15:42:20.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T15:42:20.08Z"
             },
             {
               "$type": "Document",
@@ -77,9 +74,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs",
               "RelativeDocumentMoniker": "Ecommerce-API\\Program.cs",
-              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs",
-              "RelativeToolTip": "Ecommerce-API\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAwwDEAAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs*",
+              "RelativeToolTip": "Ecommerce-API\\Program.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwD0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T14:41:00.977Z",
               "EditorCaption": ""

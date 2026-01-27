@@ -9,19 +9,8 @@ namespace Ecommerce_API.Menus
 {
     internal class ViewProductsMenu : Menu
     {
-        internal void FormatProduct(Product product)
-        {
-            int length = product.Title.Length;
-            string border = string.Empty.PadLeft(length + 10, '-');
-            Console.WriteLine(border);
-            Console.WriteLine($"ID: {product.Id}");
-            Console.WriteLine($"Título: {product.Title}");
-            Console.WriteLine($"Preço: ${product.Price}");
-            Console.WriteLine(border);
-        }
         internal void ShowProducts(List<Product> products)
         {
-            Console.Clear();
             ShowMenuLogo("Produtos Disponíveis");
 
             foreach (var product in products)

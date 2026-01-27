@@ -11,8 +11,24 @@ namespace Ecommerce_API.Menus
     {
         public void SearchProduct(List<Product> products)
         {
-            ShowMenuLogo("Busque por um produto");
+            ShowMenuLogo("Busque por um Produto");
+            Console.Write("Digite o termo de busca: ");
+            string searchTerm = Console.ReadLine()!;
+            Console.WriteLine($"\nResultados para '{searchTerm}':\n");
 
+            var mathedProducts = products.Where
+            (
+                p => p.Title!.Contains(searchTerm)
+            ).ToList();
+
+            foreach (var product in mathedProducts)
+            {
+                FormatProduct(product);
+            }
+
+            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }

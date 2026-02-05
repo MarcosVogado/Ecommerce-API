@@ -63,6 +63,11 @@ namespace Ecommerce_API
                     searchProductMenu.SearchProduct(products);
                     ShowMenuOptions(products);
                     break;
+                case 3:
+                    AddToCartMenu addToCartMenu = new AddToCartMenu();
+                    addToCartMenu.AddProductToCart(products);
+                    ShowMenuOptions(products);
+                    break;
                 case -1:
                     Console.WriteLine("\n=> Obrigado por usar a Lojinha no Console! Até a próxima.");
                     Thread.Sleep(2000);

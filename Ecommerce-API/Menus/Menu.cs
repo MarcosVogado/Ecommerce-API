@@ -26,7 +26,7 @@ namespace Ecommerce_API.Menus
             Console.WriteLine(border);
             Console.WriteLine($"ID: {product.Id}");
             Console.WriteLine($"Título: {product.Title}");
-            Console.WriteLine($"Preço: ${product.Price}");
+            Console.WriteLine($"Preço: $ {product.Price}");
             Console.WriteLine(border);
         }
     }

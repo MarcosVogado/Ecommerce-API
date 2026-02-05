@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\menus\\viewproductsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,8 +29,18 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs",
+              "RelativeDocumentMoniker": "Ecommerce-API\\Program.cs",
+              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs",
+              "RelativeToolTip": "Ecommerce-API\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwCsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T14:41:00.977Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,9 +50,26 @@
               "RelativeDocumentMoniker": "Ecommerce-API\\Menus\\SearchProductMenu.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\SearchProductMenu.cs",
               "RelativeToolTip": "Ecommerce-API\\Menus\\SearchProductMenu.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T18:48:52.147Z",
+              "WhenOpened": "2026-02-05T19:08:16.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\models\\Product.cs",
+              "RelativeDocumentMoniker": "Ecommerce-API\\models\\Product.cs",
+              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\models\\Product.cs",
+              "RelativeToolTip": "Ecommerce-API\\models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T19:07:04.292Z",
               "EditorCaption": ""
             },
             {
@@ -53,35 +80,9 @@
               "RelativeDocumentMoniker": "Ecommerce-API\\Menus\\ViewProductsMenu.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\ViewProductsMenu.cs",
               "RelativeToolTip": "Ecommerce-API\\Menus\\ViewProductsMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T17:58:40.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\Menu.cs",
-              "RelativeDocumentMoniker": "Ecommerce-API\\Menus\\Menu.cs",
-              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\Menu.cs",
-              "RelativeToolTip": "Ecommerce-API\\Menus\\Menu.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T15:42:20.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs",
-              "RelativeDocumentMoniker": "Ecommerce-API\\Program.cs",
-              "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Program.cs",
-              "RelativeToolTip": "Ecommerce-API\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T14:41:00.977Z",
               "EditorCaption": ""
             }
           ]

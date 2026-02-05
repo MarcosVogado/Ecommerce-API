@@ -13,12 +13,12 @@ namespace Ecommerce_API.Menus
         {
             ShowMenuLogo("Busque por um Produto");
             Console.Write("Digite o termo de busca: ");
-            string searchTerm = Console.ReadLine()!;
+            string searchTerm = Console.ReadLine()!.ToLower();
             Console.WriteLine($"\nResultados para '{searchTerm}':\n");
 
             var mathedProducts = products.Where
             (
-                p => p.Title!.Contains(searchTerm)
+                p => p.Title!.ToLower().Contains(searchTerm)
             ).ToList();
 
             foreach (var product in mathedProducts)

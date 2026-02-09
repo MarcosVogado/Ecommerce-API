@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\menus\\linqmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\menus\\linqmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\filters\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\filters\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\menus\\linqmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\menus\\linqmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54E56312-7110-4F62-8767-399E1B2BD1B1}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\marco\\onedrive\\documents\\work\\projeto-pessoal\\ecommerce-api\\ecommerce-api\\ecommerce-api\\menus\\viewproductsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -99,26 +99,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LinqMenu.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\LinqMenu.cs",
               "RelativeDocumentMoniker": "Ecommerce-API\\Menus\\LinqMenu.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\LinqMenu.cs",
               "RelativeToolTip": "Ecommerce-API\\Menus\\LinqMenu.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T15:04:27.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LinqFilter.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Filters\\LinqFilter.cs",
               "RelativeDocumentMoniker": "Ecommerce-API\\Filters\\LinqFilter.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Filters\\LinqFilter.cs",
               "RelativeToolTip": "Ecommerce-API\\Filters\\LinqFilter.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T18:06:15.528Z",
               "EditorCaption": ""

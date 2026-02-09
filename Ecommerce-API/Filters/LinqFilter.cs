@@ -24,7 +24,6 @@ namespace Ecommerce_API.Filters
             if (filteredProducts.Count == 0)
             {
                 Console.WriteLine("Nenhum produto encontrado para essa categoria.");
-                return;
             }
 
             foreach ( var product in filteredProducts )

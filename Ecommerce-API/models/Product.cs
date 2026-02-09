@@ -19,6 +19,6 @@ namespace Ecommerce_API.models
         public decimal? Price { get; set; }
 
         [JsonPropertyName("category")]
-        public string? category { get; set; }
+        public string? Category { get; set; }
     }
 }

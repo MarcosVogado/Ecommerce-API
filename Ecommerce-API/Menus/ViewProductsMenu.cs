@@ -30,7 +30,7 @@ namespace Ecommerce_API.Menus
                 if (option == "s")
                 { 
                     LinqMenu linqMenu = new LinqMenu();
-                    linqMenu.ShowLinqMenu();
+                    linqMenu.ShowLinqMenu(products);
                     break;
                 }
                 else if (option == "n")

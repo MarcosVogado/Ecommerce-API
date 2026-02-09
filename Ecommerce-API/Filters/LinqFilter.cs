@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Ecommerce_API.Menus;
+using Ecommerce_API.models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,25 @@ namespace Ecommerce_API.Filters
 {
     internal class LinqFilter
     {
+        internal static void filterProductsByCategory(List<Product> products, string category)
+        {
+            var filteredProducts = products.Where
+            (
+                p => p.Category!.Contains(category)
+            ).ToList();
 
+            Console.WriteLine("\nProdutos filtrados por categoria: " + category);
+
+            if (filteredProducts.Count == 0)
+            {
+                Console.WriteLine("Nenhum produto encontrado para essa categoria.");
+                return;
+            }
+
+            foreach ( var product in filteredProducts )
+            {
+                Menu.FormatProduct(product);
+            }
+        }
     }
 }

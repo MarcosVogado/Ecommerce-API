@@ -19,7 +19,7 @@ namespace Ecommerce_API.Menus
             Console.WriteLine($"{border}\n");
         }
 
-        internal void FormatProduct(Product product)
+        internal static void FormatProduct(Product product)
         {
             int length = product.Title.Length;
             string border = string.Empty.PadLeft(length + 10, '-');

@@ -1,4 +1,5 @@
-﻿using Ecommerce_API.models;
+﻿using Ecommerce_API.Filters;
+using Ecommerce_API.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +19,32 @@ namespace Ecommerce_API.Menus
                 FormatProduct(product);
             }
 
-            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
-            Console.ReadKey();
-            Console.Clear();
+            Console.WriteLine("\nTotal de produtos: " + products.Count);
+            Console.WriteLine("=============================================");
+
+            while (true)
+            {
+                Console.WriteLine("Deseja Ordenar ou Filtrar os produtos? (s/n)");
+                string option = (Console.ReadLine() ?? "").Trim().ToLower();
+
+                if (option == "s")
+                { 
+                    LinqMenu linqMenu = new LinqMenu();
+                    linqMenu.ShowLinqMenu();
+                    break;
+                }
+                else if (option == "n")
+                {
+                    Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
+                    Console.ReadKey();
+                    Console.Clear();
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Opção inválida. Pressione qualquer tecla para voltar ao menu principal...");
+                }
+            }
         }
     }
 }

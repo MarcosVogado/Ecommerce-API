@@ -8,5 +8,6 @@ namespace Ecommerce_API.Filters
 {
     internal class LinqFilter
     {
+
     }
 }

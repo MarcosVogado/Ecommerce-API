@@ -28,7 +28,6 @@ namespace Ecommerce_API.Menus
                     Console.Write("Digite a categoria para filtrar: ");
                     string category = (Console.ReadLine() ?? "").Trim().ToLower();
                     LinqFilter.filterProductsByCategory(products, category);
-                    Console.Clear();
                     ShowLinqMenu(products);
                     break;
                 case 2:

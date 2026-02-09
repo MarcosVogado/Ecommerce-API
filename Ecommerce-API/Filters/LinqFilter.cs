@@ -12,6 +12,8 @@ namespace Ecommerce_API.Filters
     {
         internal static void filterProductsByCategory(List<Product> products, string category)
         {
+            Console.Clear();
+
             var filteredProducts = products.Where
             (
                 p => p.Category!.Contains(category)
@@ -29,6 +31,10 @@ namespace Ecommerce_API.Filters
             {
                 Menu.FormatProduct(product);
             }
+
+            Console.WriteLine("\nPressione qualquer tecla para voltar...");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }

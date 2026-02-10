@@ -21,7 +21,9 @@ namespace Ecommerce_API
                     });
 
                     var products = data?.Products ?? new List<Product>();
-                    ShowMenuOptions(products);
+
+                    Cart cart = new Cart();
+                    ShowMenuOptions(products, cart);
                 }
                 catch (Exception excecao)
                 {
@@ -29,6 +31,7 @@ namespace Ecommerce_API
                 }
             }
         }
+        
         static void ShowProjectLogo()
         {
             Console.WriteLine(@"                                                                                                                                                                       
@@ -38,37 +41,48 @@ namespace Ecommerce_API
                                                                                                      ");
             Console.WriteLine("***** Boas vindas a Lojinha no Console! *****");
         }
-        public static void ShowMenuOptions(List<Product> products)
+        public static void ShowMenuOptions(List<Product> products, Cart cart)
         {
             ShowProjectLogo();
             Console.WriteLine("\n============== Menu de Opções: ==============\n");
             Console.WriteLine("> Digite 1 para visualizar todos os produtos");
             Console.WriteLine("> Digite 2 para buscar um produto");
             Console.WriteLine("> Digite 3 para adicionar um produto ao carrinho");
+            Console.WriteLine("> Digite 4 para remover um produto do carrinho");
+            Console.WriteLine("> Digite 5 para pagar");
             Console.WriteLine("> Digite -1 para sair");
             Console.WriteLine("\n=============================================");
 
             Console.Write("Selecione uma opção: ");
             string userInput = Console.ReadLine()!;
             int option = int.Parse(userInput);
-            var cart = new Cart();
 
             switch (option)
             {
                 case 1:
                     ViewProductsMenu viewProductsMenu = new ViewProductsMenu();
                     viewProductsMenu.ShowProducts(products);
-                    ShowMenuOptions(products);
+                    ShowMenuOptions(products, cart);
                     break;
                 case 2:
                     SearchProductMenu searchProductMenu = new SearchProductMenu();
                     searchProductMenu.SearchProduct(products);
-                    ShowMenuOptions(products);
+                    ShowMenuOptions(products, cart);
                     break;
                 case 3:
                     AddToCartMenu addToCartMenu = new AddToCartMenu();
                     addToCartMenu.AddProductToCart(products, cart);
-                    ShowMenuOptions(products);
+                    ShowMenuOptions(products, cart);
+                    break;
+                case 4:
+                    RemoveToCartMenu removeToCartMenu = new RemoveToCartMenu();
+                    removeToCartMenu.RemoveProductToCart(cart);
+                    ShowMenuOptions(products, cart);
+                    break;
+                case 5:
+                    PaymentMenu paymentMenu = new PaymentMenu();
+                    paymentMenu.PayCart(cart);
+                    ShowMenuOptions(products, cart);
                     break;
                 case -1:
                     Console.WriteLine("\n=> Obrigado por usar a Lojinha no Console! Até a próxima.");
@@ -79,7 +93,7 @@ namespace Ecommerce_API
                     Console.WriteLine("Opção inválida. Tente novamente.");
                     Thread.Sleep(2000);
                     Console.Clear();
-                    ShowMenuOptions(products);
+                    ShowMenuOptions(products, cart);
                     break;
             }
         }

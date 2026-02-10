@@ -20,7 +20,8 @@ namespace Ecommerce_API.Menus
                 if (!int.TryParse(userInput, out int productId))
                 {
                     Console.WriteLine("ID inválido.");
-                    return;
+                    Thread.Sleep(2000);
+                    continue;
                 }
 
                 Product? selectedProduct = products.FirstOrDefault(p => p.Id == productId);
@@ -28,7 +29,8 @@ namespace Ecommerce_API.Menus
                 if (selectedProduct is null)
                 {
                     Console.WriteLine("Produto não encontrado.");
-                    return;
+                    Thread.Sleep(2000);
+                    continue;
                 }
 
                 cart.AddProduct(selectedProduct);

@@ -27,11 +27,14 @@ namespace Ecommerce_API.Menus
                 case 1: 
                     Console.Write("Digite a categoria para filtrar: ");
                     string category = (Console.ReadLine() ?? "").Trim().ToLower();
+                    Console.Clear();
                     LinqFilter.filterProductsByCategory(products, category);
                     ShowLinqMenu(products);
                     break;
                 case 2:
-
+                    Console.Clear();
+                    LinqOrder.OrderProductsByPrice(products);
+                    ShowLinqMenu(products);
                     break;
                 case -1:
                     Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");

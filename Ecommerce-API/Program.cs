@@ -81,7 +81,7 @@ namespace Ecommerce_API
                     break;
                 case 5:
                     PaymentMenu paymentMenu = new PaymentMenu();
-                    paymentMenu.PayCart(cart);
+                    paymentMenu.PayCart(products, cart);
                     ShowMenuOptions(products, cart);
                     break;
                 case -1:

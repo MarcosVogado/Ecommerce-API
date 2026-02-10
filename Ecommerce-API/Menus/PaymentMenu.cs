@@ -60,6 +60,7 @@ namespace Ecommerce_API.Menus
 
                 if (recommendedProducts is not null && recommendedProducts.Count > 0)
                 {
+                    Console.WriteLine("\nCom base na sua compra, aqui estão algumas recomendações para você:\n");
                     Console.WriteLine("Mais produtos relacionados para você:");
 
                     var matchedProducts = products

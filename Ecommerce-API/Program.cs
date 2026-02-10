@@ -44,12 +44,14 @@ namespace Ecommerce_API
             Console.WriteLine("\n============== Menu de Opções: ==============\n");
             Console.WriteLine("> Digite 1 para visualizar todos os produtos");
             Console.WriteLine("> Digite 2 para buscar um produto");
+            Console.WriteLine("> Digite 3 para adicionar um produto ao carrinho");
             Console.WriteLine("> Digite -1 para sair");
             Console.WriteLine("\n=============================================");
 
             Console.Write("Selecione uma opção: ");
             string userInput = Console.ReadLine()!;
             int option = int.Parse(userInput);
+            var cart = new Cart();
 
             switch (option)
             {
@@ -65,7 +67,7 @@ namespace Ecommerce_API
                     break;
                 case 3:
                     AddToCartMenu addToCartMenu = new AddToCartMenu();
-                    addToCartMenu.AddProductToCart(products);
+                    addToCartMenu.AddProductToCart(products, cart);
                     ShowMenuOptions(products);
                     break;
                 case -1:

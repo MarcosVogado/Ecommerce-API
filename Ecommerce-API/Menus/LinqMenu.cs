@@ -17,6 +17,7 @@ namespace Ecommerce_API.Menus
             Console.WriteLine("\n============== Menu de filtros e ordenações: ==============\n");
             Console.WriteLine("> Digite 1 para filtrar os produtos por categoria");
             Console.WriteLine("> Digite 2 para ordenar os produtos em ordem crescente/preço");
+            Console.WriteLine("> Digite 3 para ordenar os produtos em ordem decrescente/preço");
             Console.WriteLine("> Digite -1 para sair");
             Console.WriteLine("\n=============================================");
             string userInput = (Console.ReadLine() ?? "").Trim().ToLower();
@@ -34,6 +35,11 @@ namespace Ecommerce_API.Menus
                 case 2:
                     Console.Clear();
                     LinqOrder.OrderProductsByPrice(products);
+                    ShowLinqMenu(products);
+                    break;
+                case 3:
+                    Console.Clear();
+                    LinqOrder.OrderProductsByPriceDescending(products);
                     ShowLinqMenu(products);
                     break;
                 case -1:

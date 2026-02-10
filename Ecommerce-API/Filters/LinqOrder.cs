@@ -19,9 +19,18 @@ namespace Ecommerce_API.Filters
                 Menu.FormatProduct(producy);
             }
 
-            if (orderedProducts.Count == 0)
+            Console.WriteLine("\nPressione qualquer tecla para voltar...");
+            Console.ReadKey();
+            Console.Clear();
+        }
+
+        internal static void OrderProductsByPriceDescending(List<Product> products)
+        {
+            var orderedProducts = products.OrderByDescending(p => p.Price).ToList();
+
+            foreach (var producy in orderedProducts)
             {
-                Console.WriteLine("Nenhum produto encontrado para essa categoria.");
+                Menu.FormatProduct(producy);
             }
 
             Console.WriteLine("\nPressione qualquer tecla para voltar...");

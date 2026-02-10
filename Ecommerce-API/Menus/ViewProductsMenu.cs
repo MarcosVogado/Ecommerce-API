@@ -42,7 +42,7 @@ namespace Ecommerce_API.Menus
                 }
                 else
                 {
-                    Console.WriteLine("Opção inválida. Pressione qualquer tecla para voltar ao menu principal...");
+                    Console.WriteLine("Opção inválida. Digite novamente...\n");
                 }
             }
         }

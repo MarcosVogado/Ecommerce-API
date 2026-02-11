@@ -71,8 +71,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T14:41:00.977Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\RemoveToCartMenu.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:19:08.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:19:08.956Z"
             },
             {
               "$type": "Document",
@@ -103,7 +101,7 @@
               "RelativeDocumentMoniker": "Ecommerce-API\\Menus\\PaymentMenu.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Menus\\PaymentMenu.cs",
               "RelativeToolTip": "Ecommerce-API\\Menus\\PaymentMenu.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwD4AAABQAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T17:31:24.943Z",
               "EditorCaption": ""
@@ -118,8 +116,7 @@
               "RelativeToolTip": "Ecommerce-API\\Dtos\\ProductsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T16:38:13.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T16:38:13.869Z"
             },
             {
               "$type": "Document",
@@ -131,8 +128,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\AddToCartMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T15:15:10.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T15:15:10.73Z"
             },
             {
               "$type": "Document",
@@ -144,8 +140,7 @@
               "RelativeToolTip": "Ecommerce-API\\models\\Cart.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T15:17:49.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T15:17:49.178Z"
             },
             {
               "$type": "Document",
@@ -157,8 +152,7 @@
               "RelativeToolTip": "Ecommerce-API\\Filters\\LinqOrder.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:55:50.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T14:55:50.504Z"
             },
             {
               "$type": "Document",
@@ -170,8 +164,7 @@
               "RelativeToolTip": "Ecommerce-API\\models\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T18:23:17.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T18:23:17.782Z"
             },
             {
               "$type": "Document",
@@ -183,8 +176,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T15:09:17.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T15:09:17.589Z"
             },
             {
               "$type": "Document",
@@ -196,8 +188,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\ViewProductsMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T17:36:18.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T17:36:18.67Z"
             },
             {
               "$type": "Document",
@@ -209,8 +200,7 @@
               "RelativeToolTip": "Ecommerce-API\\Menus\\LinqMenu.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T15:04:27.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T15:04:27.302Z"
             },
             {
               "$type": "Document",
@@ -222,8 +212,7 @@
               "RelativeToolTip": "Ecommerce-API\\Filters\\LinqFilter.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T18:06:15.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T18:06:15.528Z"
             }
           ]
         }

@@ -1,11 +1,41 @@
 ﻿using Ecommerce_API.models;
 using OpenAI_API;
+using System.Globalization;
+using System.Text;
 using System.Text.Json;
 
 namespace Ecommerce_API.Menus
 {
     internal class PaymentMenu : Menu
     {
+        private static string NormalizeTitle(string? s)
+        {
+            if (string.IsNullOrWhiteSpace(s)) return "";
+
+            s = s.Trim().ToLowerInvariant();
+
+            var normalized = s.Normalize(NormalizationForm.FormD);
+            var sb = new StringBuilder();
+            foreach (var c in normalized)
+                if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+                    sb.Append(c);
+
+            s = sb.ToString().Normalize(NormalizationForm.FormC);
+
+            sb.Clear();
+            foreach (var c in s)
+                sb.Append(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c) ? c : ' ');
+
+            return string.Join(' ', sb.ToString().Split(' ', StringSplitOptions.RemoveEmptyEntries));
+        }
+        private static bool IsInCart(Product p, Cart cart)
+        {
+            if (p.Id.HasValue)
+                return cart.ProductsInCart.Any(c => c.Id == p.Id.Value);
+
+            var pTitle = NormalizeTitle(p.Title);
+            return cart.ProductsInCart.Any(c => NormalizeTitle(c.Title) == pTitle);
+        }
         internal void PayCart(List<Product> products, Cart cart)
         {
             ShowMenuLogo("Pagamento do Carrinho");
@@ -21,7 +51,6 @@ namespace Ecommerce_API.Menus
             }
             else
             {
-
                 Console.WriteLine($"Total a pagar: $ {cart.TotalPrice}\n");
                 Console.WriteLine("> Itens a pagar: \n");
 
@@ -63,9 +92,23 @@ namespace Ecommerce_API.Menus
                     Console.WriteLine("\nCom base na sua compra, aqui estão algumas recomendações para você:\n");
                     Console.WriteLine("Mais produtos relacionados para você:");
 
+                    var normalizedKeywords = recommendedProducts
+                        .Where(r => !string.IsNullOrWhiteSpace(r))
+                        .Select(NormalizeTitle)
+                        .Distinct()
+                        .ToList();
+
                     var matchedProducts = products
-                        .Where(p => recommendedProducts.Any(r =>
-                            (p.Title ?? "").Contains(r, StringComparison.OrdinalIgnoreCase)))
+                        .Where(p => !IsInCart(p, cart))
+                        .Where(p =>
+                        {
+                            var title = NormalizeTitle(p.Title);
+                            return normalizedKeywords.Any(k => title.Contains(k));
+                        })
+                        
+                        .GroupBy(p => NormalizeTitle(p.Title))
+                        .Select(g => g.First())
+                        .Take(3)
                         .ToList();
 
                     foreach (var product in matchedProducts)

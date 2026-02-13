@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u/49zTTjuGs=",
+  "dgSpecHash": "zyu5VaMM99Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marco\\OneDrive\\Documents\\work\\projeto-pessoal\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API.csproj",
+  "projectFilePath": "C:\\Users\\marco\\Downloads\\my-chrome-notepad\\my-chrome-notepad\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",

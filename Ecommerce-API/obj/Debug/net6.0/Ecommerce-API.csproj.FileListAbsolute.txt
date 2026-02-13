@@ -42,3 +42,17 @@ C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-A
 C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\OpenAI_API.dll
 C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerce-API.csproj.AssemblyReference.cache
 C:\Users\marco\OneDrive\Documents\work\projeto-pessoal\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerc.34A68E8C.Up2Date
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\bin\Debug\net6.0\OpenAI_API.dll
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerce-API.csproj.AssemblyReference.cache
+C:\Users\marco\Downloads\my-chrome-notepad\my-chrome-notepad\Ecommerce-API\Ecommerce-API\obj\Debug\net6.0\Ecommerc.34A68E8C.Up2Date
